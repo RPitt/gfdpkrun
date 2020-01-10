@@ -4,48 +4,107 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ULTRAK 499 / DIGISport DT2000 StopWatch Guide</title> 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/lcd" type="text/css"/>
 <style>
-body {
-	font-family: 'Montserrat', serif;
-	font-size: 0.875em; /* 14px/16=0.875em */
+
+
+body
+{
+	padding:0;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.875em;
+	background-color:#f2f2f2;
 }
-li {
-  list-style-position: outside;
+
+img {
+	max-width: 100%;
 }
+
+h1
+{
+	font-size:2.5em;
+	font-weight:bold;
+	color:#272727;
+	background-color:inherit;
+	text-align:center;
+	margin:30px 0 40px;
+}
+
+h2
+{
+	font-size:2em;
+	font-weight:bold;
+	color:#272727;
+	background-color:inherit;
+	margin:30px 0 10px;
+}
+
+h3
+{
+	font-size:1.5em;
+	font-weight:bold;
+	color:#272727;
+	background-color:inherit;
+	margin:30px 0 10px;
+}
+
+h4
+{
+	font-size:1em;
+	font-weight:bold;
+	color:#272727;
+	background-color:inherit;
+	margin:30px 0 10px;
+}
+
+#button {
+	color:#0000ff;
+	font-weight: bolder;
+	font-size:125%;
+}	
+
+#lcd {
+	font-family: "LCD14", "Courier New", Courier, monospace;	
+	font-weight: bold;
+}
+
 </style>
 </head>
 <body>
 
 <h1>ULTRAK 499 / DIGISport DT2000 StopWatch Guide</h1>
 
+<img src="Stopwatch.png" style="width: 150px;" hspace="100">
+
 
 <h3>Clearing Stored Times</h3>
 
 <ul>
-<li>Press MODE (C) until you are on the timing screen with 3 lines of times.<br>If the number is less than 2000 there are times to clear.</li>
-<li>Press RECALL (D), you should now see MCH at the bottom left of the screen.
-<li>Hold down START/STOP (A) and continue holding until ALL CLEARED is displayed and the beeping has stopped.
+<li>Press MODE (<span id="button">C</span>) until you are on the timing screen with 3 lines of times.<br>If the number is less than <span id="lcd">2000</span> then there are times to clear!</li>
+<li>Press RECALL (<span id="button">D</span>), you should now see <span id="lcd">MCH</span> at the bottom left of the screen.
+<li>Hold down START/STOP (<span id="button">A</span>) and continue holding until <span id="lcd">ALL CLEARED</span> is displayed and the beeping has stopped.
 </ul>
 
 <h3>Timing</h3>
 
 <ul>
-<li>Press MODE (C) until you are on the timing screen.
-<li>Check the screen says 2000 ⇒ if not see “Clearing Stored Times” above.
-<li>Check the screen says SPLIT CHRONO ⇒ if not press and hold LAP (B) for 2 seconds to change mode.
-<li>Press START/STOP (A) to start the run.
-<li>Press LAP (B) for every runner crossing the finish.
-<li>Press START/STOP (A) after the run.
-<li>Press LAP (B) to store the times.
+<li>Press MODE (<span id="button">C</span>) until you are on the timing screen.
+<li>Check the screen says <span id="lcd">2000</span> ⇒ if not see “Clearing Stored Times” above.
+<li>Check the screen says <span id="lcd">SPLIT CHRONO</span> ⇒ if not press and hold LAP (<span id="button">B</span>) for 2 seconds to change mode.
+<li>Press START/STOP (<span id="button">A</span>) to start the run.
+<li>Press LAP (<span id="button">B</span>) for every runner crossing the finish.
+<li>Press START/STOP (<span id="button">A</span>) after the run.
+<li>Press LAP (<span id="button">B</span>) to store the times.
 </ul>
 
 <h3>Uploading</h3>
 
 <ul>
-<li>Press MODE (C) until you see UPLOAD ALL.
-<li>If the stopwatch says ‘PRINT ALL’ ⇒ press RECALL (D) to change to upload mode.
-<li>If the stopwatch says ‘UPLOAD 0’ ⇒ you haven’t stored the times, see the last step above!
-<li>Assuming you’re connected to the computer with the software ready… press START/STOP (A) to start the upload.
+<li>Press MODE (<span id="button">C</span>) until you see <span id="lcd">UPLOAD ALL</span>
+<li>If the stopwatch says <span id="lcd">PRINT ALL</span> ⇒ press RECALL (<span id="button">D</span>) to change to upload mode.
+<li>If the stopwatch says <span id="lcd">UPLOAD 0</span> ⇒ you haven’t stored the times, see the last step above!
+<li>Assuming you’re connected to the computer with the software ready… press START/STOP (<span id="button">A</span>) to start the upload.
 </ul>
 
 </body>
