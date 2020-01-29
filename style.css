@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url("https://fontlibrary.org/face/lcd");
 
 body
@@ -14,8 +14,13 @@ img {
 	max-width: 100%;
 }
 
+a {
+	font-weight: 500;
+}
+
 h1
 {
+	text-transform: uppercase;
 	font-size:2.5em;
 	font-weight:bold;
 	color:#272727;
@@ -53,11 +58,11 @@ h4
 
 #button {
 	color:#0000ff;
-	font-weight: bolder;
+	font-weight: bold;
 }	
 
 #lcd {
 	font-family: "LCD14", "Courier New", Courier, monospace;	
 	font-weight: bold;
-	font-size: 80%;
+	font-size: 90%;
 }
